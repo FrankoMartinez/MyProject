@@ -1,7 +1,54 @@
-div.app-info{
-    text-align: center;
+body {
+    background-image: url(weatherapp.jpeg);
+    background-size: auto;
+    align-items: center;
+    padding: 10px;
 }
 
-div {
-    margin-top: 10px;
+h1 {
+    font-size: 40px;
+    color: black
+}
+
+div.info {
+    text-align: center;
+    margin: 200px auto;
+    background: white;
+    padding: 2em;
+    height: 500px;
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: 0px 1px 7px rgba(0,0,0, 0.25);
+}
+
+div.temp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding: 10px;
+}
+
+div.weather {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-size: 25px;
+}
+
+div.city {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-size: 35px;
+}
+
+div.day {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-size: 30px;
+}
+
+input#search-box {
+    font-size: 20px;
+    padding: 2px 5px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid;
 }
